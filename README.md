@@ -2,7 +2,13 @@
 
 # Introduction
 This process is to compare data coming from a data lake system to sharepoint and measuring scalability and cost management for the nearest future
-In the architecture, we read the data from azure databricks verifying the file type and sending the data into specified share point folder. also we wrote a fucntion to refresh access token to run daily and whcih gives acccess to the sharepoint url directory daily
+In the architecture, we read the data from azure databricks verifying the file type and sending the data into specified share point folder. also we wrote a fucntion to refresh access token to run daily and whcih gives acccess to the sharepoint url directory daily.
+
+# Tools Used
+1. Azure Databricks
+2. Spark
+3. Azure Logic Apps for Orchestration
+4. Data Lake:ALDS
 
 
 # Data Architecture
